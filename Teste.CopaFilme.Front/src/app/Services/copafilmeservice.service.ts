@@ -12,7 +12,8 @@ export class CopafilmeserviceService
 {
 
   partidaFinal: Partida;
-
+  uri: string = "https://localhost:44354/";
+  
   constructor(private http: HttpClient) 
   { 
 
@@ -20,12 +21,12 @@ export class CopafilmeserviceService
 
   public GetFilmes(): Observable<any>
   {
-    return this.http.get('https://localhost:44354/api/filme');
+    return this.http.get(this.uri + 'api/filme');
   }
 
   public PostProcessarCopa(filme : Array<Filme>) : Observable<any>
   {
-    return this.http.post('https://localhost:44354/api/partida/', filme); 
+    return this.http.post(this.uri + 'api/partida/', filme); 
   }
 
 }
