@@ -1,0 +1,108 @@
+<style>
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding-top: 16px;
+  }
+
+.card-container-sec
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding: 16px;
+    color: #fafafa;
+}
+  .card-container-first {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding: 16px;
+    color: #fafafa;
+  }
+
+  .card {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 250px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 40px;
+    width: 250px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+
+  }
+
+  input[type="button"] 
+  {
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid #eee;
+    background-color: #363636;
+    margin: 0 8px 16px;
+    color: #eee;
+  }
+
+  input[type="checkbox"] 
+  {
+      margin: 3px 15px 10px 3px !important;
+  }
+
+</style>
+
+<div class="content" role="main">
+
+    <div class="card-container-first">
+
+      <h4>CAMPEONATO DE FILMES</h4>
+      <h1>Fase de Seleção</h1>
+      <p>Selecione 8 filmes que você deseja que entrem na competição e depois pressione o botão 'Gerar Meu Campeonato' para prosseguir.</p>
+  
+    </div>
+    
+    <div class="card-container-sec">
+        <div class="">
+          <span>Selecionados </span><br>
+          <span>{{qtdSelecionado}} de 8 filmes</span>
+        </div>
+        <input class="btn" type="button" (click)="processarCopa()" value="GERAR MEU CAMPOENATO" >
+    </div>
+
+    <div class="card-container">
+  
+      <div *ngFor="let i of filmesOpcoes" class="card card-small"  tabindex="0">
+        <div>
+            <input type="checkbox" (change)="atualizarQtdSelecionado($event, i.id)"/>
+        </div>
+        <div>
+          <span>{{ i.titulo }}</span><br>
+          <span>{{ i.ano }}</span>
+        </div>
+      </div>
+      
+    </div>
+  
+  </div>

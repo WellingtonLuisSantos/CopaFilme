@@ -1,0 +1,94 @@
+<style>
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding-top: 16px;
+  }
+
+  .card-container-sec
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding: 16px;
+    color: #fafafa;
+}
+  .card-container-first {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 16px 16px 16px;
+    background-color: #285d96;
+    padding: 16px;
+    color: #fafafa;
+  }
+
+  .card {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 250px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 40px;
+    width: 250px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+
+  }
+
+  input[type="button"] 
+  {
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid #eee;
+    background-color: #363636;
+    margin: 0 8px 16px;
+    color: #eee;
+  }
+
+  input[type="checkbox"] 
+  {
+      margin: 3px 15px 10px 3px !important;
+  }
+</style>
+
+<div class="card-container-first">
+                <h4>CAMPEONATO DE FILMES</h4>
+                <h1>Resultado Final</h1>
+                <p>Veja o resultado final do Campeonato de filmes de forma simples e rápida.</p>
+</div>
+
+<div class="card-container-sec">
+        <input class="btn" type="button" (click)="goToNovo()" value="VOLTAR" >
+</div>
+
+<div class="card-container">
+        <div class="card card-big"  tabindex="0">
+                <span>1º</span>
+                <span>{{ campeao }}</span>
+        </div>
+
+        <div class="card card-big" tabindex="0">
+                <span>2º</span>
+                <span>{{ vicecampeao }}</span>
+        </div>            
+</div>
