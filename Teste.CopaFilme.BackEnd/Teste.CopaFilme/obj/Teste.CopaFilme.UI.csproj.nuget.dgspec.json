@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme\\Teste.CopaFilme.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj",
+        "projectName": "Teste.CopaFilme.Entity",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme\\Teste.CopaFilme.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme\\Teste.CopaFilme.UI.csproj",
+        "projectName": "Teste.CopaFilme.UI",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme\\Teste.CopaFilme.UI.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj"
+              },
+              "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\Teste.Domain.Context.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\Teste.Domain.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\Teste.Domain.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\Teste.Domain.Context.csproj",
+        "projectName": "Teste.Domain.Context",
+        "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\Teste.Domain.Context.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.Domain.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Desktop\\Copa\\Teste.CopaFilme.BackEnd\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

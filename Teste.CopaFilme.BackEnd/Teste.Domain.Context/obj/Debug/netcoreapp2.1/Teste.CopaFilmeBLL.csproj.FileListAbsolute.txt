@@ -1,0 +1,14 @@
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.csprojAssemblyReference.cache
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.csproj.CoreCompileInputs.cache
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.AssemblyInfoInputs.cache
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.AssemblyInfo.cs
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.deps.json
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.dll
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.pdb
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Teste.CopaFilme.Entity.dll
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Teste.CopaFilme.Entity.pdb
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.csproj.CopyComplete
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.dll
+C:\Users\Wellington\Source\Repos\Teste.CompaFilme\Teste.CopaFilmeBLL\obj\Debug\netcoreapp2.1\Teste.CopaFilmeBLL.pdb

@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilmeBLL\\Teste.CopaFilmeBLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj",
+        "projectName": "Teste.CopaFilme.Entity",
+        "projectPath": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilmeBLL\\Teste.CopaFilmeBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilmeBLL\\Teste.CopaFilmeBLL.csproj",
+        "projectName": "Teste.CopaFilmeBLL",
+        "projectPath": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilmeBLL\\Teste.CopaFilmeBLL.csproj",
+        "packagesPath": "C:\\Users\\Wellington\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilmeBLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wellington\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj": {
+                "projectPath": "C:\\Users\\Wellington\\Source\\Repos\\Teste.CompaFilme\\Teste.CopaFilme.Entity\\Teste.CopaFilme.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
